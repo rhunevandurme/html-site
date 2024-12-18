@@ -1,13 +1,201 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,
-initial-scale=1.0">
-<title>Mijn Eerste Website</title>
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Design</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/uikit/uikit.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+  
+    <meta name="description" content="">
+  
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image:alt" content="">
+  
+    <link rel="icon" href="icon.png" sizes="any">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icon.png">
+  
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#fafafa">
+  </head>
+
 <body>
-<h1>Welkom op mijn website!</h1>
-<p>Dit is mijn eerste website gepubliceerd met GitHub Pages.</p>
+  <div class="navbar">
+    <div class="logo">Art Daily</div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#artists">Artists</a></li>
+    </ul>
+    <button class="button">Sign Up</button>
+    <button class="uk-button uk-button-default" type="button" uk-toggle="target: #offcanvas-overlay"><img class="burger" src="img/burger-menu-right-svgrepo-com.svg" alt=""></button>
+
+<div id="offcanvas-overlay" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+
+        <h3>Art Daily</h3>
+        <ul class="nav-links-burger">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#artists">Artists</a></li>
+      </ul>
+      <button class="button2">Sign Up</button>
+    </div>
+</div>
+</div>
+
+    
+</div>
+
+<header class="hero-section">
+  <div class="content">
+      <h1>Discover the work of<br><span>Clemens Behr</span></h1>
+      <p>Behr creëert indrukwekkende installaties die een dialoog aangaan met hun omgeving, waarbij hij speelt met perspectief, balans en chaos. Zijn werk nodigt uit tot interactie en herdefinieert de grenzen van stedelijke kunst en architectonisch ontwerp.</p>
+  </div>
+  <div class="image">
+      <img src="img/Clemens-Behrs-Portrait.jpg" alt="Clemens Behr">
+  </div>
+</header>
+
+  <div class="wrap">
+
+
+    <div class="uk-grid uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m uk-text-center" uk-grid>
+
+        <div class="foto">
+            <div class="uk-cover-container">
+              <canvas width="400" height="300"></canvas>
+              <img src="img/1.jpg" alt="" uk-cover>
+            </div>
+            <p>Een complexe installatie met houten panelen en metaal, waarin lagen en verspringende structuren de illusie van beweging creëren.</p>
+          </div>
+          <div>
+            <div class="uk-cover-container">
+              <canvas width="400" height="300"></canvas>
+              <img src="img/2.jpg" alt="" uk-cover>
+            </div>
+            <p>Een sculptuur opgebouwd uit kartonnen driehoeken, asymmetrisch gerangschikt, waarbij licht en schaduw de dynamiek van het werk versterken.</p>
+          </div>
+          <div>
+            <div class="uk-cover-container">
+              <canvas width="400" height="300"></canvas>
+              <img src="img/3.jpg" alt="" uk-cover>
+            </div>
+            <p>Een grote installatie in een galerie, waarin Behr speelt met ruimtelijke perceptie door hangende en overlappende elementen.</p>
+          </div>
+          <div>
+            <div class="uk-cover-container">
+              <canvas width="400" height="300"></canvas>
+              <img src="img/4.jpg" alt="" uk-cover>
+            </div>
+            <p>Een interventie in de openbare ruimte, waarbij abstracte elementen de omgeving op een speelse manier verstoren.</p>
+          </div>
+          <div>
+            <div class="uk-cover-container">
+              <canvas width="400" height="300"></canvas>
+              <img src="img/5.jpg" alt="" uk-cover>
+            </div>
+            <p>Een volledig uit karton opgebouwd werk, dat de fragiliteit van de materialen contrasteert met de krachtige geometrische vormen.</p>
+          </div>
+          <div>
+            <div class="uk-cover-container">
+              <canvas width="400" height="300"></canvas>
+              <img src="img/6.jpg" alt="" uk-cover>
+            </div>
+            <p>Een installatie waarin bezoekers worden uitgenodigd om door en rond geometrische vormen te bewegen, waardoor het werk tot leven komt.</p>
+          </div>
+          <div>
+            <div class="uk-cover-container">
+              <canvas width="400" height="300"></canvas>
+              <img src="img/7.jpg" alt="" uk-cover>
+            </div>
+            <p>Een werk dat visuele balans en chaos combineert door brekende lijnen en asymmetrie in houten constructies.</p>
+          </div>
+          <div>
+            <div class="uk-cover-container">
+              <canvas width="400" height="300"></canvas>
+              <img src="img/8.jpg" alt="" uk-cover>
+            </div>
+            <p>Een tijdelijke muurschildering in abstracte geometrie, die een bestaande muur transformeert in een kunstwerk.</p>
+          </div>
+          <div>
+            <div class="uk-cover-container">
+              <canvas width="400" height="300"></canvas>
+              <img src="img/9.jpg" alt="" uk-cover>
+            </div>
+            <p>Een installatie met spiegels en metalen platen, die licht en ruimte dynamisch weergeven.</p>
+          </div>
+          <div>
+            <div class="uk-cover-container">
+              <canvas width="400" height="300"></canvas>
+              <img src="img/10.jpg" alt="" uk-cover>
+            </div>
+            <p>Een structurele sculptuur geïnspireerd op noodwoningen, met een rauwe, maar functionele esthetiek.</p>
+          </div>
+          <div>
+            <div class="uk-cover-container">
+              <canvas width="400" height="300"></canvas>
+              <img src="img/11.jpg" alt="" uk-cover>
+            </div>
+            <p>Een installatie waarin houten, metalen en kunststof elementen zijn gerangschikt in een chaotisch ogende maar zorgvuldig ontworpen compositie.</p>
+          </div>
+          <div>
+            <div class="uk-cover-container">
+              <canvas width="400" height="300"></canvas>
+              <img src="img/13.jpg" alt="" uk-cover>
+            </div>
+            <p>Een landschap van abstracte sculpturen die eruitzien als ruïnes, maar een moderne twist hebben.</p>
+          </div>
+          <div>
+            <div class="uk-cover-container">
+              <canvas width="400" height="300"></canvas>
+              <img src="img/14.jpg" alt="" uk-cover>
+            </div>
+            <p>Een installatie waarin bezoekers worden uitgenodigd om door en rond geometrische vormen te bewegen, waardoor het werk tot leven komt.</p>
+          </div>
+          <div>
+            <div class="uk-cover-container">
+              <canvas width="400" height="300"></canvas>
+              <img src="img/12.jpg" alt="" uk-cover>
+            </div>
+            <p>Een stedelijke sculptuur van gerecyclede materialen, geplaatst in een drukke stad, die reflecteert op de relatie tussen chaos en orde.</p>
+          </div>
+          <div>
+            <div class="uk-cover-container">
+              <canvas width="400" height="300"></canvas>
+              <img src="img/15.jpg" alt="" uk-cover>
+            </div>
+            <p>Een kunstwerk dat met overlapping van materialen en kleuren een optisch spel van diepte en vlak creëert.</p>
+          </div>
+      </div>
+
+  <script src="js/uikit/uikit.js"></script>
+  <script src="js/uikit/uikit-icons.js"></script>
+  <script src="js/app.js"></script>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">Art Daily</div>
+      <div class="footer-social">
+        <a href="#"><img src="img/pintrest-svgrepo-com.svg" alt="Pinterest"></a>
+        <a href="#"><img src="img/instagram-167-svgrepo-com.svg" alt="Instagram"></a>
+        <a href="#"><img src="img/facebook-svgrepo-com.svg" alt="Facebook"></a>
+        <a href="#"><img src="img/whatsapp-svgrepo-com.svg" alt="Whatsapp"></a>
+      </div>
+    </div>
+  </footer>
+
 </body>
+
 </html>
